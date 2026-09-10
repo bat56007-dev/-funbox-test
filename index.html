@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-<title>Funbox 抽獎連結｜北北桃</title>
+<title>Funbox 抽獎連結整理</title>
 <style>
   :root{
     --bg: #0E1A2B;
@@ -163,41 +163,29 @@
   // ------------------------------------------------------------------
   const DATA = {
     "台北市": [
-      { store:"Fun box忠孝SOGO", period:"2026/08/28~2026/08/29", active:false, items:[
-        {code:"BX-10", name:"極限衝擊戰鬥盤", url:"https://lin.ee/9xvdY8S"},
-        {code:"BX-25", name:"戰鬥陀螺X專業收納包", url:"https://lin.ee/xxqkyvC"},
-        {code:"BX-37", name:"雙重極限衝擊戰鬥盤 豪華組", url:"https://lin.ee/yP3r8Lq"},
-        {code:"BX-40", name:"發射器(酒紅)", url:"https://lin.ee/QrlSYOm"},
-        {code:"BX-45", name:"武士魂斬", url:"https://lin.ee/TmhBnu9"},
-        {code:"BX-51", name:"旋風發射器 黑綠", url:"https://lin.ee/zrGLkVA"},
-        {code:"BX-57", name:"3V3對戰收納盒 黑", url:"https://lin.ee/xe0367ja"},
-        {code:"UX-02", name:"惡魔戰錘", url:"https://lin.ee/suYW8By"},
-        {code:"UX-19", name:"子彈獅鷲H", url:"https://lin.ee/tratm8F"},
-        {code:"UX-21", name:"惡魔冥界改造組（8/29 11:00才開始）", url:"https://lin.ee/QsQzRTL"},
-        {code:"CX-18", name:"腕龍鞭打 隨機強化組", url:"https://lin.ee/XoUgnBE"}
+      { store:"Fun box忠孝SOGO", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"CX-00", name:"新世紀福音戰士改造組", url:"https://lin.ee/Teeti1U"},
+        {code:"BX-00", name:"蒼龍神劍", url:"https://lin.ee/Q3x58xY"},
+        {code:"BX-37", name:"雙重極限衝擊戰鬥盤 豪華組", url:"https://lin.ee/6myV5gy"}
       ]},
-      { store:"Funbox天母三越店", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
-        {code:"BX-00", name:"暴風天馬", url:"https://lin.ee/zfyVDku"},
-        {code:"UX-02", name:"惡魔戰錘", url:"https://lin.ee/9sGjpih"},
-        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/UNUtlZi"},
-        {code:"BX-00", name:"蒼龍神劍V2", url:"https://lin.ee/PLbLMXo"},
-        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/qW7Oiqi"},
-        {code:"BXG-01", name:"烈焰飛鳳S", url:"https://lin.ee/n4KT7gJ"},
-        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/nziJiOE"}
+      { store:"Funbox天母三越店", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"CX-00", name:"福音戰士改造組", url:"https://lin.ee/rFVhsbl"},
+        {code:"BX-00", name:"暴風天馬", url:"https://lin.ee/629xw4m"},
+        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/WYNMaUp"},
+        {code:"BX-00", name:"蒼龍神劍V2", url:"https://lin.ee/yxZblNk"},
+        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/Pxw2l5hu"},
+        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/rU3f6Ng"}
       ]},
-      { store:"Funbox-信義A8店(陀螺販售)", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
-        {code:"BX-00", name:"蒼龍神劍3-60F V2", url:"https://lin.ee/tXdvUyb"},
-        {code:"BX-37", name:"雙重極限衝擊戰鬥盤 豪華組", url:"https://lin.ee/ogsBWHC7"},
-        {code:"CX-12", name:"鳳凰閃焰", url:"https://lin.ee/TlCMsiu"},
-        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/RnPWYrN"},
-        {code:"UX-20", name:"榮耀武神LF", url:"https://lin.ee/Tw4w7OtZ"},
-        {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/O57EuiK"}
+      { store:"Funbox-信義A8店(陀螺販售)", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"CX-12", name:"鳳凰閃焰", url:"https://lin.ee/qtETM0Z"},
+        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/8ui3pQS"},
+        {code:"BX-00", name:"蒼龍神劍3-60F V2", url:"https://lin.ee/NsYCTEy"},
+        {code:"CX-00", name:"新世紀福音戰士改造組", url:"https://lin.ee/U0irnFS"}
       ]},
-      { store:"Funbox 天母SOGO店", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
-        {code:"BX-00", name:"蒼龍神劍3-60F V2", url:"https://lin.ee/RcSDDix"},
-        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/txDNS4N"},
-        {code:"UX-20", name:"榮耀武神LF", url:"https://lin.ee/tFot4Guw"},
-        {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/pJjYgWw"}
+      { store:"Funbox 天母SOGO店", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"BX-00", name:"蒼龍神劍3-60F V2", url:"https://lin.ee/y4j0PVB"},
+        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/sW8NexE"},
+        {code:"CX-00", name:"新世紀福音戰士改造組", url:"https://lin.ee/uq6jtZa"}
       ]},
       { store:"Funbox Toys-大葉高島屋", period:"2026/08/28~2026/08/29", active:false, items:[
         {code:"BX-00", name:"暴風天馬3-70RA", url:"https://lin.ee/7OSuRof"},
@@ -219,17 +207,14 @@
         {code:"BXG-01", name:"烈焰飛鳳S", url:"https://lin.ee/8UeJWKh"},
         {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/tvERf3U"}
       ]},
-      { store:"Funbox-南港潤泰", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
-        {code:"BX-00", name:"蒼龍神劍3-60F V2", url:"https://lin.ee/7JT3H0I"},
-        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/N8zhtwT"},
-        {code:"BX-33", name:"皓戰猛虎", url:"https://lin.ee/yxOXnmz"},
-        {code:"BX-50", name:"天堂日輪 隨機強化組", url:"https://lin.ee/ymToMDv"},
-        {code:"UX-20", name:"榮耀武神LF", url:"https://lin.ee/p6sOG89"},
-        {code:"UX-19", name:"子彈獅鷲H", url:"https://lin.ee/YtvvOG9"},
-        {code:"BXG-01", name:"烈焰飛鳳S", url:"https://lin.ee/8SN35Rs"},
-        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/OeEFp2B"},
-        {code:"UX-02", name:"惡魔戰鎚", url:"https://lin.ee/pm0qB4X"},
-        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/QGvGCW5"}
+      { store:"Funbox-南港潤泰", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"BX-00", name:"蒼龍神劍3-60F V2", url:"https://lin.ee/V2XrEqY"},
+        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/xrvbsaJ"},
+        {code:"BXG-01", name:"烈焰飛鳳S", url:"https://lin.ee/PtEatZV"},
+        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/8FfX2UL"},
+        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/x5H1ZjY"},
+        {code:"BX-00", name:"暴風天馬3-70RA", url:"https://lin.ee/79aYEfH"},
+        {code:"CX-00", name:"新世紀福音戰士改造組", url:"https://lin.ee/9ORwvJh"}
       ]},
       { store:"來玩聚-北車地下街", period:"2026/08/28~2026/08/29", active:false, items:[
         {code:"BX-00", name:"暴風天馬", url:"https://lin.ee/S8yfj1o"},
@@ -247,20 +232,17 @@
         {code:"CX-18", name:"腕龍鞭打", url:"https://lin.ee/5iP45eb"},
         {code:"BXG-01", name:"烈焰飛鳳S", url:"https://lin.ee/t9Fn7iw"}
       ]},
-      { store:"Funbox 遠百信義A13", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
+      { store:"Funbox 遠百信義A13", period:"2026/09/04 11:00~2026/09/05 21:00", active:false, items:[
         {code:"BX-00", name:"蒼龍神劍", url:"https://lin.ee/6MXlzET"},
         {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/uEkeETF"},
         {code:"UX-20", name:"榮耀武神LF", url:"https://lin.ee/QlgZ79L"},
         {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/ydwCkmY"},
         {code:"BX-37", name:"雙重極限衝擊戰鬥盤 豪華組", url:"https://lin.ee/6kgjSJZ"}
       ]},
-      { store:"Funbox 三越站前店", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
-        {code:"BX-00", name:"蒼龍神劍3-60F V2", url:"https://lin.ee/YPG2HJk"},
-        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/OVePkZs"},
-        {code:"UX-20", name:"榮耀武神", url:"https://lin.ee/vYDc43J"},
-        {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/pyNpoPN"}
+      { store:"Funbox 三越站前店", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"CX-00", name:"新世紀福音戰士改造組", url:"https://lin.ee/wNVQFEw"}
       ]},
-      { store:"Funbox 美麗華", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
+      { store:"Funbox 美麗華", period:"2026/09/04 11:00~2026/09/05 21:00", active:false, items:[
         {code:"UX-20", name:"榮耀武神", url:"https://lin.ee/YEjtQAn"},
         {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/ojSXOr2"},
         {code:"CX-13", name:"龍王閃擊 BK1-50I", url:"https://lin.ee/TUogZd8"},
@@ -272,32 +254,15 @@
         {code:"BXG-01", name:"烈焰飛鳳S 3-80T", url:"https://lin.ee/zqKWBXd"},
         {code:"BXG-04", name:"銀牙烈虎S 4-80P", url:"https://lin.ee/xO0pNXN"}
       ]},
-      { store:"Funbox LaLaport南港", period:"2026/08/28 11:00~2026/08/29 21:00", active:false, items:[
-        {code:"BX-00", name:"暴風天馬3-70RA", url:"https://lin.ee/7meLFUn"},
-        {code:"BX-10", name:"極限衝擊戰鬥盤", url:"https://lin.ee/5OhxHJr"},
-        {code:"BX-18", name:"X炫風發射器", url:"https://lin.ee/53RYxU7"},
-        {code:"BX-25", name:"戰鬥陀螺X專業收納包", url:"https://lin.ee/5S33T6A"},
-        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/TOIAF5e"},
-        {code:"BX-32", name:"寬型極限衝擊戰鬥盤", url:"https://lin.ee/vtPi2tx"},
-        {code:"BX-33", name:"皓戰猛虎", url:"https://lin.ee/XjDe5ma"},
-        {code:"BX-35", name:"隨機強化組Vol.04", url:"https://lin.ee/QtIsgeh"},
-        {code:"BX-37", name:"雙重極限衝擊戰鬥盤 豪華組", url:"https://lin.ee/xCP9NsQ"},
-        {code:"BX-40", name:"發射器（酒紅）", url:"https://lin.ee/pCeQbWz"},
-        {code:"BX-45", name:"武士魂斬", url:"https://lin.ee/okwRin0"},
-        {code:"BX-50", name:"天堂日輪隨機強化組", url:"https://lin.ee/uZ52zTl"},
-        {code:"BX-51", name:"炫風發射器 黑綠", url:"https://lin.ee/ub34Vey"},
-        {code:"BX-57", name:"3V3對戰收納盒 黑", url:"https://lin.ee/T4epzhr"},
-        {code:"UX-02", name:"惡魔戰錘", url:"https://lin.ee/T0GDMsh"},
-        {code:"UX-03", name:"魔導神杖", url:"https://lin.ee/SKB9Mzm"},
-        {code:"UX-11", name:"衝擊龍神豪華組", url:"https://lin.ee/6x5RoXJ"},
-        {code:"UX-19", name:"子彈獅鷲H", url:"https://lin.ee/YeKJb8H"},
-        {code:"UX-20", name:"榮耀武神LF", url:"https://lin.ee/qHTOOuh"},
-        {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/wxDyuiT"},
-        {code:"CX-18", name:"腕龍鞭打隨機強化組", url:"https://lin.ee/R3Uf7Ys"},
-        {code:"BXG-01", name:"烈焰飛鳳S", url:"https://lin.ee/91G8cDn"},
-        {code:"BXG-04", name:"銀牙獵虎S", url:"https://lin.ee/wElOvyv"}
+      { store:"Funbox LaLaport南港", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"CX-00", name:"新世紀福音戰士改造組", url:"https://lin.ee/pncsz8S"},
+        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/TxQ5gKs"},
+        {code:"BX-37", name:"雙重極限衝擊戰鬥盤 豪華組", url:"https://lin.ee/xOtHEe4"},
+        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/ym2BGXG"},
+        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/R1VlRfVq"},
+        {code:"BX-00", name:"蒼龍神劍3-60F V2", url:"https://lin.ee/x1u6Knk"}
       ]},
-      { store:"Funbox 三越南西店", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
+      { store:"Funbox 三越南西店", period:"2026/09/04 11:00~2026/09/05 21:00", active:false, items:[
         {code:"BX-00", name:"蒼龍神劍3-60F V2", url:"https://lin.ee/safDqUe"},
         {code:"BX-00", name:"暴風天馬3-70RA", url:"https://lin.ee/wYrNdRC"},
         {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/T5Wn9bw"},
@@ -311,71 +276,50 @@
       ]}
     ],
     "新北市": [
-      { store:"FunBox Toys-汐止遠雄店", period:"2026/08/28 11:00~2026/08/29 22:00", active:false, items:[
-        {code:"BX-00", name:"暴風天馬3-70R", url:"https://lin.ee/Op8jS9I"},
-        {code:"BX-10", name:"極限衝擊戰鬥盤", url:"https://lin.ee/SUqCHvm"},
-        {code:"BX-18", name:"X旋風發射器", url:"https://lin.ee/OSj26JJ"},
-        {code:"BX-25", name:"戰鬥陀螺X專業收納包", url:"https://lin.ee/YY093fd"},
-        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/StkURkyV"},
-        {code:"BX-33", name:"皓戰猛虎", url:"https://lin.ee/wjRuEzM"},
-        {code:"BX-35", name:"隨機強化組Vol.4", url:"https://lin.ee/S2hCveN"},
-        {code:"BX-40", name:"發射器（酒紅）", url:"https://lin.ee/zSArdFn"},
-        {code:"BX-45", name:"武士魂斬", url:"https://lin.ee/Rka7bKF"},
-        {code:"BX-50", name:"天堂日輪 隨機強化組", url:"https://lin.ee/pM2tdPFu"},
-        {code:"BX-51", name:"旋風發射器（黑綠）", url:"https://lin.ee/9lxk0P4R"},
-        {code:"BX-57", name:"3V3對戰收納盒（黑）", url:"https://lin.ee/wQnsGbN"},
-        {code:"UX-02", name:"惡魔戰錘", url:"https://lin.ee/qX1qW6ar"},
-        {code:"UX-19", name:"子彈獅鷲H", url:"https://lin.ee/VCgeEGN"},
-        {code:"UX-20", name:"榮耀武神LF", url:"https://lin.ee/OW8V3OF"},
-        {code:"BXG-01", name:"烈燄飛鳳S", url:"https://lin.ee/RsQCHAX1"},
-        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/qXJgkTI"}
+      { store:"FunBox Toys-汐止遠雄店", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"CX-00", name:"新世紀福音戰士改造組", url:"https://lin.ee/UHqMK5X"},
+        {code:"BX-00", name:"暴風天馬3-70R", url:"https://lin.ee/n6US1jV"},
+        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/58XYS5A"},
+        {code:"BXG-01", name:"烈焰飛鳳S", url:"https://lin.ee/NNAyTM8"},
+        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/V7BEn2I"},
+        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/UizxRku"},
+        {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/8552VhL"},
+        {code:"BX-00", name:"蒼龍神劍", url:"https://lin.ee/7PHVVG7"}
       ]},
-      { store:"Funbox板橋遠東店", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
-        {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/W4YWfXL"},
-        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/yfX1zfA"},
-        {code:"UX-20", name:"榮耀武神LF", url:"https://lin.ee/U85OY6B"},
-        {code:"BX-33", name:"皓戰猛虎", url:"https://lin.ee/XRRYfC9"},
-        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/yMjKKC4"},
-        {code:"BXG-01", name:"烈焰飛鳳S", url:"https://lin.ee/zAUGc8K"},
-        {code:"BX-00", name:"暴風天馬3-70RA", url:"https://lin.ee/Pka1ku2"},
-        {code:"UX-11", name:"衝擊龍神 豪華組", url:"https://lin.ee/z6TXHvM"},
-        {code:"BX-00", name:"蒼龍神劍V2", url:"https://lin.ee/uVpfV2j"}
+      { store:"Funbox板橋遠東店", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/7Qp0lON"},
+        {code:"BX-00", name:"蒼龍神劍v2", url:"https://lin.ee/p6Hm7YO"},
+        {code:"CX-00", name:"新世紀福音戰士改造組", url:"https://lin.ee/vAF5QKG"},
+        {code:"UX-20", name:"榮耀武神LF", url:"https://lin.ee/yKmsW8Y"},
+        {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/Q7Ubro4"}
       ]},
-      { store:"Funbox -中和環球店", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
-        {code:"UX-21", name:"惡魔幽冥", url:"https://lin.ee/slJensL"},
-        {code:"BX-00", name:"蒼龍神劍V2", url:"https://lin.ee/pULgSQU"},
-        {code:"UX-20", name:"榮耀女武神", url:"https://lin.ee/5wsJbDa"},
-        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/7jDjBfK"},
-        {code:"BX-37", name:"雙重極限衝擊戰鬥盤", url:"https://lin.ee/P76FHtL"}
+      { store:"Funbox -中和環球店", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"CX-00", name:"新世紀福音戰士戰鬥陀螺套組", url:"https://lin.ee/z0EgAy8"},
+        {code:"UX-21", name:"惡魔幽冥", url:"https://lin.ee/qro4Qkz"},
+        {code:"BX-00", name:"蒼龍神劍V2", url:"https://lin.ee/Sgnos11"},
+        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/Udigxl5"},
+        {code:"BX-37", name:"雙重極限衝擊戰鬥盤", url:"https://lin.ee/vmGyKot"}
       ]},
-      { store:"Funbox新店誠品店", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
-        {code:"BX-37", name:"雙重極限衝擊戰鬥盤豪華組", url:"https://lin.ee/oiAxd9G"},
-        {code:"BX-00", name:"烈焰飛鳳S 3-80T", url:"https://lin.ee/ZImHXO1"},
-        {code:"BX-45", name:"武士魂斬", url:"https://lin.ee/YcPOIlw"},
-        {code:"CX-12", name:"鳳凰閃焰 Z9-80WW", url:"https://lin.ee/QSrsrke"},
-        {code:"CX-13", name:"龍王閃擊 BK1-50I", url:"https://lin.ee/xJjqiUa"},
-        {code:"UX-21", name:"惡魔幽冥改造組", url:"https://lin.ee/p589taI"},
-        {code:"BX-00", name:"蒼龍神劍 3-60F Ver.2", url:"https://lin.ee/yWF0nkm"},
-        {code:"BXG", name:"孩之寶系列", url:"https://lin.ee/ZTOaK7Q"}
+      { store:"Funbox新店誠品店", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"BX-37", name:"雙重極限衝擊戰鬥盤豪華組", url:"https://lin.ee/RyYyWOo"},
+        {code:"CX-12", name:"鳳凰閃焰 Z9-80WW", url:"https://lin.ee/vk3Cl4g"},
+        {code:"BX-00", name:"蒼龍神劍 3-60F", url:"https://lin.ee/r1IXPQE"},
+        {code:"CX", name:"新世紀福音戰士 戰鬥陀螺限定套組", url:"https://lin.ee/5IlxU5K"}
       ]},
-      { store:"Funbox樹林秀泰店", period:"2026/09/04 11:00~2026/09/05 21:00", active:true, items:[
-        {code:"BX-00", name:"暴風天馬", url:"https://lin.ee/5wyZSJ5"},
-        {code:"BX-00", name:"蒼龍神劍V2", url:"https://lin.ee/pVFQ7jG"},
-        {code:"BX-10", name:"極限衝擊戰鬥盤", url:"https://lin.ee/vSA7Zxu5"},
-        {code:"BX-18", name:"X旋風發射器", url:"https://lin.ee/vuaxC68d"},
-        {code:"BX-25", name:"專業收納包", url:"https://lin.ee/saH4yrT"},
-        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/TJZp8s4"},
-        {code:"BX-30", name:"X發射器改造型握把(黑紅)", url:"https://lin.ee/6HZKxMr"},
-        {code:"BX-32", name:"寬型極限衝擊戰鬥盤", url:"https://lin.ee/8fWeyhW"},
-        {code:"BX-40", name:"左迴旋發射器(酒紅)", url:"https://lin.ee/si7qji9"},
-        {code:"BX-45", name:"武士魂斬", url:"https://lin.ee/UtwAzrjf"},
-        {code:"BX-51", name:"旋風發射器 黑綠", url:"https://lin.ee/PLfF01V"},
-        {code:"BX-57", name:"3v3對戰收納盒", url:"https://lin.ee/nar6FMu"},
-        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/59VBJso"},
-        {code:"UX-20", name:"榮耀武神", url:"https://lin.ee/n5cDwZA"},
-        {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/wzgWKRj"},
-        {code:"BXG-01", name:"烈焰飛鳳", url:"https://lin.ee/TkeJqlnx"},
-        {code:"BXG-04", name:"銀牙烈虎", url:"https://lin.ee/VayWbgb"}
+      { store:"Funbox樹林秀泰店", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"CX-00", name:"新世紀福音戰士改造組", url:"https://lin.ee/nMMo9F9"},
+        {code:"BX-25", name:"專業收納包", url:"https://lin.ee/vyKYuXu"},
+        {code:"BX-57", name:"3v3對戰收納盒", url:"https://lin.ee/x6IajAo"},
+        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/rsycL2q"},
+        {code:"BX-10", name:"極限衝擊戰鬥盤", url:"https://lin.ee/qVQi9m3"},
+        {code:"BXG-01", name:"烈焰飛鳳", url:"https://lin.ee/svvpyy8"},
+        {code:"BX-30", name:"發射器握把(黑紅)", url:"https://lin.ee/6sbALkLw"},
+        {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/7dR60o7"},
+        {code:"BX-18", name:"X旋風發射器", url:"https://lin.ee/8Mgc2Ra"},
+        {code:"BX-00", name:"蒼龍神劍V2", url:"https://lin.ee/sCU4pitK"},
+        {code:"BX-45", name:"武士魂斬", url:"https://lin.ee/7jUJs9F"},
+        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/U0394RC"},
+        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/UYv5QPl"}
       ]},
       { store:"Funbox板橋大遠百", period:"2026/08/28~2026/08/29", active:false, items:[
         {code:"BX-00", name:"暴風天馬3-70RA", url:"https://lin.ee/xheASvX"},
@@ -425,14 +369,18 @@
       ]}
     ],
     "桃園市": [
-      { store:"Funbox-桃園站前三越", period:"2026/08/28~2026/08/29", active:false, items:[
-        {code:"BX-18", name:"X旋風發射器", url:"https://lin.ee/UJOyslk"},
-        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/Oya4wBN"},
-        {code:"BX-33", name:"皓戰猛虎", url:"https://lin.ee/XQtg8KH"},
-        {code:"BX-35", name:"隨機強化組Vol.04", url:"https://lin.ee/WHbtrMP"},
-        {code:"UX-21", name:"惡魔冥界改造組（8/29 11:00才開始）", url:"https://lin.ee/Q5emiZW"},
-        {code:"BXG-01", name:"烈焰飛鳳S", url:"https://lin.ee/PMfRxsS"},
-        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/W7a5GSM"}
+      { store:"Funbox-桃園站前三越", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"UX-21", name:"惡魔冥界改造組", url:"https://lin.ee/RyT9nk9"},
+        {code:"UX-02", name:"惡魔戰錘", url:"https://lin.ee/RcMEFmW"},
+        {code:"CX-13", name:"龍王閃擊", url:"https://lin.ee/NpUNAS1"},
+        {code:"BX-00", name:"暴風天馬3-70RA", url:"https://lin.ee/x6yzH8p"},
+        {code:"UX-20", name:"榮耀武神LF", url:"https://lin.ee/9I323EP"},
+        {code:"BX-50", name:"天堂日輪隨機強化組", url:"https://lin.ee/qUn33fe"},
+        {code:"BXG-01", name:"烈焰飛鳳S", url:"https://lin.ee/taF4Bk6"},
+        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/QXxp4qV"},
+        {code:"BX-00", name:"蒼龍神劍3-60F V2", url:"https://lin.ee/VixMUsb"},
+        {code:"CX-00", name:"新世紀福音戰士改造組", url:"https://lin.ee/nQmhrsZ"},
+        {code:"BXG-04", name:"銀牙烈虎S", url:"https://lin.ee/VJRYDec"}
       ]},
       { store:"Funbox toys - 桃園台茂店", period:"2026/08/28 11:00~2026/08/29 21:30", active:false, items:[
         {code:"BX-10", name:"極限衝擊戰鬥盤", url:"https://lin.ee/vgY7gpL"},
@@ -537,10 +485,29 @@
         {code:"BXG-01", name:"烈焰飛鳳", url:"https://lin.ee/8x5KSVsE"},
         {code:"BXG-04", name:"銀牙烈虎", url:"https://lin.ee/TmsRpyR"}
       ]}
+    ],
+    "台中市": [
+      { store:"Funbox台中廣三店", period:"2026/09/11 11:00~2026/09/12 21:00", active:true, items:[
+        {code:"CX-00", name:"新世紀福音戰士改造組（原價$1395）", url:"https://lin.ee/8aMGnIR"},
+        {code:"UX-21", name:"惡魔冥界改造組（原價$895）", url:"https://lin.ee/TFhnOX3"},
+        {code:"CX-13", name:"龍王閃擊（原價$495）", url:"https://lin.ee/WTpWADL"},
+        {code:"BX-00", name:"蒼龍神劍3-60F V2（原價$350）", url:"https://lin.ee/PEh5xzw"},
+        {code:"CX-18", name:"腕龍鞭打 隨機強化組（原價$350，只剩最後2組，限購2組）", url:"https://lin.ee/5IAT8EZ"},
+        {code:"UX-19", name:"子彈獅鷲（原價$550）", url:"https://lin.ee/7v6B5V9"},
+        {code:"BXG-01", name:"烈焰飛鳳S（原價$350）", url:"https://lin.ee/x8AeEnS"},
+        {code:"BXG-04", name:"銀牙烈虎S（原價$350）", url:"https://lin.ee/8IrrmbQT"}
+      ]},
+      { store:"Funbox台中中友店", period:"2026/09/11 10:30~2026/09/12 21:00", active:true, items:[
+        {code:"BX-00", name:"蒼龍神劍3-60F V2", url:"https://lin.ee/WFVW7YW"},
+        {code:"BX-26", name:"獨角刺心", url:"https://lin.ee/rtkxzaY"},
+        {code:"BX-37", name:"雙重極限衝擊戰鬥盤 豪華組", url:"https://lin.ee/RT0Qmjj"},
+        {code:"BXG-01", name:"烈焰飛鳳S", url:"https://lin.ee/rWohN0Y"},
+        {code:"CX-00", name:"新世紀福音戰士改造組", url:"https://lin.ee/NTdr548"}
+      ]}
     ]
   };
 
-  const META = { period: "2026/08/28 ~ 2026/08/29", note: "台北市 · 新北市 · 桃園市" };
+  const META = { period: "2026/08/28 ~ 2026/08/29", note: "台北市 · 新北市 · 桃園市 · 台中市" };
 
   document.getElementById('pageTitle').textContent = "抽獎連結整理";
   document.getElementById('pageSub').textContent = META.note + "　" + META.period;
